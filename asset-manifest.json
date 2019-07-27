@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.95a40fdb.chunk.css",
-    "main.js": "/static/js/main.4829a6aa.chunk.js",
-    "main.js.map": "/static/js/main.4829a6aa.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.973995ae.chunk.js": "/static/js/2.973995ae.chunk.js",
-    "static/js/2.973995ae.chunk.js.map": "/static/js/2.973995ae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fb9dd5bc06b6cae0ce1f13b05c5b7ee2.js": "/precache-manifest.fb9dd5bc06b6cae0ce1f13b05c5b7ee2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.95a40fdb.chunk.css.map": "/static/css/main.95a40fdb.chunk.css.map"
+    "main.css": "/Tomer-Yanko-21-7-2019/static/css/main.95a40fdb.chunk.css",
+    "main.js": "/Tomer-Yanko-21-7-2019/static/js/main.917a5682.chunk.js",
+    "main.js.map": "/Tomer-Yanko-21-7-2019/static/js/main.917a5682.chunk.js.map",
+    "runtime~main.js": "/Tomer-Yanko-21-7-2019/static/js/runtime~main.f1995c4e.js",
+    "runtime~main.js.map": "/Tomer-Yanko-21-7-2019/static/js/runtime~main.f1995c4e.js.map",
+    "static/js/2.973995ae.chunk.js": "/Tomer-Yanko-21-7-2019/static/js/2.973995ae.chunk.js",
+    "static/js/2.973995ae.chunk.js.map": "/Tomer-Yanko-21-7-2019/static/js/2.973995ae.chunk.js.map",
+    "index.html": "/Tomer-Yanko-21-7-2019/index.html",
+    "precache-manifest.f90204df0094ed012935897df76939ed.js": "/Tomer-Yanko-21-7-2019/precache-manifest.f90204df0094ed012935897df76939ed.js",
+    "service-worker.js": "/Tomer-Yanko-21-7-2019/service-worker.js",
+    "static/css/main.95a40fdb.chunk.css.map": "/Tomer-Yanko-21-7-2019/static/css/main.95a40fdb.chunk.css.map"
   }
 }
