@@ -23,7 +23,7 @@ export const getAutoCompleteSuccess = (cities) => ({
   
 
 export const getAutoComplete = (e) => (dispatch) => {
-    axios.get(`${AT.LINK}locations/v1/cities/autocomplete?apikey=${API_KEY2}&q=${e}`)
+    axios.get(`${AT.LINK}locations/v1/cities/autocomplete?apikey=${AT.API_KEY2}&q=${e}`)
     .then((res) => {
         if(res.data.length>0){
         const cities = res.data.map((c) => {
@@ -38,7 +38,7 @@ export const getAutoComplete = (e) => (dispatch) => {
 };
 
 export const getFiveDayWeather = (id) => (dispatch) => {
-    axios.get(`${AT.LINK}forecasts/v1/daily/5day/${id}?apikey=${API_KEY2}`)
+    axios.get(`${AT.LINK}forecasts/v1/daily/5day/${id}?apikey=${AT.API_KEY2}`)
     .then((res) => {
         dispatch(getFiveDayWeatherSuccess(res.data.DailyForecasts));
     }).catch(() => {
@@ -46,7 +46,7 @@ export const getFiveDayWeather = (id) => (dispatch) => {
     });
 };
 export const getCurrentWeather = (id) => (dispatch) => {
-    axios.get(`${AT.LINK}currentconditions/v1/${id}?apikey=${API_KEY2}`)
+    axios.get(`${AT.LINK}currentconditions/v1/${id}?apikey=${AT.API_KEY2}`)
     .then((res) => {
         dispatch(getCurrentWeatherSuccess(
             res.data[0].WeatherText,
