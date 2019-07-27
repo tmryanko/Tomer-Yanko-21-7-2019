@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tomer-Yanko-21-7-2019/precache-manifest.f90204df0094ed012935897df76939ed.js"
+  "/Tomer-Yanko-21-7-2019/precache-manifest.9fb2a2359cbd281a8343fe781a2f32cf.js"
 );
 
 self.addEventListener('message', (event) => {
