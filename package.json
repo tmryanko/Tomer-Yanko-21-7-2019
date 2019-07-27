@@ -1,5 +1,6 @@
 {
   "name": "my-weather-app",
+  "homepage": "https://tmryanko.github.io/Tomer-Yanko-21-7-2019/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "loadsh": "0.0.4",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
@@ -30,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
